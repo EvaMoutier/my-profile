@@ -1,0 +1,121 @@
+/* Général Style */
+body {
+  background: #DE1A58;
+  padding:20px; 
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+
+/* Custom design with class (99% of design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+/* Cards */
+.card-white {
+  background-color: #FBEFEF;
+  padding: 40px;
+  margin: 20px 0;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  color: #DE1A58;
+}
+/* Button blue */
+.btn-blue {
+  background-color: #1A05A2;
+  padding: 15px 20px;
+  color: white;
+  }
+.btn-blue:hover {
+  background-color: black;
+  color:white;
+}
+
+
+
+/* Title */
+h1 {
+  color: #1A05A2;
+  font-family: 'Lora', serif;
+}
+
+h2 {
+  color: #1A05A2;
+  font-family: 'Lora', serif;
+}
+
+/* Header's Image */
+#Eva {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.img-circle {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px 0;
+
+}
+
+/* LinkedIn Boton */
+a {
+  display: inline-block;
+  background: #1A05A2;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+a:hover {
+  background: #4f62c0;
+}
+
+/* Social network */
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+  color: black;
+}
+/* Design ajustements using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
